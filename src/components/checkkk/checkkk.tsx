@@ -34,7 +34,7 @@ export const Checkkk = ({ className }: CheckkkProps) => {
                 />
             </div>
             <span>{woohoo}</span>
-            <div>
+            <div className={classes.dsdd}>
                 <video
                     controls={true}
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/video-placeholder.mp4"
