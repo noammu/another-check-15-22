@@ -27,7 +27,7 @@ export const Checkkk = ({ className }: CheckkkProps) => {
                 src="https://wixplosives.github.io/codux-assets-storage/add-panel/audio-placeholder.mp3"
             />
             <div></div>
-            <div>
+            <div className={classes.sdf}>
                 <img
                     src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg"
                     alt=""
