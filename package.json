@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@blueprintjs/core": "^5.10.0",
+    "@blueprintjs/icons": "^5.8.0",
+    "@codux-boards/react-blueprint": "^1.0.14",
     "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
