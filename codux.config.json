@@ -20,8 +20,17 @@
       "trigger": ["checkout", "pull", "setup"]
     }
   },
+  "addPanel": {
+      "assets": ["@codux-boards/react-blueprint"]
+  },
   "styling": {
     "solution": "scss modules"
   },
-  "svgLoader": "both"
+  "svgLoader": "both",
+  "resolve": {
+    "alias": {
+      "@styles": "./src/styles",
+      "@styles/*": "./src/styles/*"
+    }
+  }
 }

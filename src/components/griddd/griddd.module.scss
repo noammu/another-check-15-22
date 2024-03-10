@@ -1,0 +1,8 @@
+.root {
+}
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1f;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
